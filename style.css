@@ -1,0 +1,49 @@
+#GameBody{
+    width: auto;
+    height: auto; 
+     
+    background-color: whitesmoke;
+    display: grid;
+ 
+ grid-template-columns: repeat(4,1fr);
+  
+ 
+     
+}
+#menu{
+    background-color: blue;
+    grid-column: 1/-1;
+     
+    height: 90px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#container{
+    margin-top: 80px;
+   margin-bottom: 100px;
+    
+    width: 900px;
+    height: 600px;
+    background-color: rgb(105, 97, 97);
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16,1fr);
+    justify-self: center;
+    grid-column: 2;
+    
+}
+#item{
+    width: auto;
+    height: auto;
+    border: 5px solid rgb(122, 36, 36);
+}
+h1{
+    grid-column: 1/-1;
+    justify-self: center;
+}
+#clearall{
+    margin-right: 90px;
+    margin-left: 60px;
+}
