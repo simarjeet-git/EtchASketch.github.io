@@ -6,15 +6,40 @@
         <link rel="stylesheet" href="style.css"/>
      </head>
     <body>
-        <div id ="GameBody">
-            <h1>Etch A Sketh</a></h1>
-            <div id ="menu">
+        <div id ="container">
+            <div id = "menu">
+                <div id = "smenuh">
+                    <h1>ETCH  A  SKETCH </h1>
+                </div>
+             
+                <div id = "smenu">
+                <label>Number of boxes : <input class="box" id ="boxnumber" type="number" name="number" value="10"/><br>
+                    <button class="box" id = "nsubmit">submit</button>
                 
+                </label>
+                <label>Choose Color : <input id =  "Color" type="color" name="color" value="#17aab5"/><br>
+                <button class="box" id = "colorselect" type="button">OK</button>
+                </label> 
+                <button class="box" id = "rcolor" type="button">Random colors</button>
+                </div>
+            </div>
+            <div id =  "info"> 
+                <h1>Please Submit number of boxes for start</h1>
+                <button id = "reset">Restart Game</button>
+            </div>
+            <div id = "gamebody">
+                 
+                <div id  = "gamecontainer"></div>
+                 
+                   
+
+
+                </div>
 
             </div>
-        <div id ="container"></div>
+
         </div>
-    
+             
         <script src="main.js"></script>
     </body>
 </html>
